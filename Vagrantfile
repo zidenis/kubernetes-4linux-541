@@ -14,7 +14,6 @@ env = YAML.load_file('environment.yaml')
 Vagrant.require_version '>= 2.0.0'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.synced_folder '.', '/vagrant', disabled: true
   # Iteracao com os servidores do ambiente
   env.each do |env|
     config.vm.define env['name'] do |srv|
