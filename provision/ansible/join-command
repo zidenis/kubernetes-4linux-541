@@ -1,1 +1,0 @@
-kubeadm join 172.16.1.100:6443 --token tnmrju.akknqyivj636dltm --discovery-token-ca-cert-hash sha256:46624d65cfefaf2058127f14da9b9d7a8b61a3f1447bcfb1b995ec486a0459ed 
